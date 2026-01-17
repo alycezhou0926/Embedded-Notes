@@ -157,3 +157,9 @@ static void wifi_init_sta(void)
 5. **关闭蓝牙** (Deinit Manager)。
 6. **正式连接 Wi-Fi** (Start Station)。
 7. **获取 IP** -> 触发 `wifiCallback` -> **成功！**
+
+
+
+
+
+![ESP32wifi配网系统流程图](assets/ESP32wifi配网系统流程图.png)
